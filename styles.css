@@ -1,0 +1,98 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+    background-color: hsl(210, 46%, 95%);
+    color: hsl(219, 29%, 14%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 13px;
+}
+.box{
+    display: grid;
+    grid-template-columns: repeat(4, 20vw);
+    grid-template-rows:  repeat(2, 40vh);
+    width: 100vh;
+    height: 100vh;
+    align-content: center;
+    justify-content: center;
+    gap: 3vh;
+}
+.sub{
+    width: 90%;
+    padding: 5%;
+    box-shadow: 8px 10px 15px hsla(241, 100%, 89%, 50%);
+    background: #bbbbbb;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 1vh;
+}
+.person{
+    display: flex;
+    align-items: center;
+    gap: 2vh;
+    height: 8vh;
+}
+.bio{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+img{
+    width: 6vh;
+    border-radius: 3vh;
+}
+.name{
+    font-weight: 600;
+    font-size: 14px;
+}
+.stat{
+    font-weight: 500;
+    opacity: 50%;
+}
+.head{
+    font-weight: 600;
+    font-size: 18px;
+    height: max-content;
+}
+.txt{
+    opacity: 70%;
+    height: max-content;
+}
+.h2{
+    grid-column: span 2;
+}
+.v2{
+    grid-row: span 2;
+}
+#dan{
+    background: hsl(263, 55%, 52%);
+    background-image: url(sources/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: 80% top;
+}
+#jon{
+    background: hsl(217, 19%, 35%);
+}
+#kira{
+    background: hsl(0, 0%, 100%);
+}
+#jean{
+    background: hsl(0, 0%, 100%);
+}
+#pat{
+    background: hsl(219, 29%, 14%);
+}
+.wh{
+    color: hsl(0, 0%, 100%);
+}
+.bl{
+    color:hsl(219, 29%, 14%);
+}
+
